@@ -24,8 +24,14 @@
   color: white;
 }
 
-.App-link {
+h1 {
   color: #61dafb;
+}
+.obama {
+  color: #61dafb;
+}
+#rob {
+  color: green;
 }
 
 @keyframes App-logo-spin {
