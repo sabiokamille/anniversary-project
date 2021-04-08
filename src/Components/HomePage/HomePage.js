@@ -1,8 +1,6 @@
 import React from 'react';
 import picture from '../../images/picture.png'
 
-// Like before, React hooks can only be used in functions, so the nifty classes are almost obsolete.
-
 // The setChangePages is passed in as a prop. The "props" below is basically gathering everything you send to it. This makes it easy so you only have to change what you pass in one location (on the App page).
 function HomePage(props) {
   // Then we create a variable for each prop we need. Make sure the name you set on the App page matches what you set below! Keeping everything the same name is the safest and easiest bet.
