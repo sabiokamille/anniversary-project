@@ -1,0 +1,25 @@
+.first-words {
+  height: 1000px;
+  background-color: pink;
+  color: white;
+}
+
+.first-words h1{
+  text-align: center;
+  padding-top: 500px;
+  font-family: 'Inter', 'Noto Sans JP', sans-serif;
+}
+
+.floating-hearts {
+  width: 200px;
+  height: 200px;
+  background: url("./heart-icon.png");
+  background-repeat: no-repeat;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {bottom: 0px;}
+  to {bottom: 2000px;}
+}
