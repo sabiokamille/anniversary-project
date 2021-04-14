@@ -1,5 +1,6 @@
 .first-words {
   height: 1000px;
+  font-size: 48px;
   background-color: pink;
   color: white;
 }
@@ -22,4 +23,13 @@
 @keyframes mymove {
   from {bottom: 0px;}
   to {bottom: 2000px;}
+}
+
+.pictures {
+
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px;
 }
