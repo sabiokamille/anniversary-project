@@ -69,7 +69,13 @@ img {
   overflow:hidden;
 }
 
-.box {
+.first-box {
+  position:absolute;
+  left:0;
+  height:100%;
+}
+
+.second-box {
   position:absolute;
   left:0;
   height:100%;
