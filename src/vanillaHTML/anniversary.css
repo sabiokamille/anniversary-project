@@ -2,7 +2,7 @@
   height: 1000px;
   font-size: 48px;
   background-color: pink;
-  color: white;
+  color: #f0f0f0;
 }
 
 .first-words h1{
@@ -17,12 +17,12 @@
   background: url("./heart-icon.png");
   background-repeat: no-repeat;
   position: relative;
-  animation: mymove 5s infinite;
+  animation: mymove 6s infinite;
 }
 
 @keyframes mymove {
-  from {bottom: 0px;}
-  to {bottom: 2000px;}
+  from {bottom: -100px;}
+  to {bottom: 4500px;}
 }
 
 .pictures {
