@@ -31,10 +31,10 @@
   height: 100px;
 }
 
-img {
+/* img {
   max-width: 100px;
   max-height: 100px;
-}
+} */
 
 .pictures #other-dude {
   width: 50px;
@@ -80,4 +80,8 @@ img {
   left:0;
   height:100%;
   background:#09f;
+}
+
+.righty {
+  float:right;
 }
