@@ -83,5 +83,14 @@
 }
 
 .righty {
-  float:right;
+  /* float:right; */
+  position: relative;
+  animation: imageBounce1 1.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out
+}
+
+@keyframes imageBounce1 {
+  from {bottom:20px;}
+  to {bottom:60px;}
 }
