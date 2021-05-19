@@ -86,8 +86,7 @@ body{
   background:#09f;
 }
 
-.righty {
-  /* float:right; */
+.bounce1 {
   position: relative;
   animation: imageBounce1 1.5s infinite;
   animation-direction: alternate;
@@ -95,6 +94,18 @@ body{
 }
 
 @keyframes imageBounce1 {
-  from {bottom:20px;}
-  to {bottom:60px;}
+  from {bottom:-20px;}
+  to {bottom:20px;}
+}
+.bounce2 {
+  position: relative;
+  animation: imageBounce2 1.5s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+}
+
+@keyframes imageBounce2 {
+  from {bottom:-20px;}
+  to {bottom:20px;}
 }
