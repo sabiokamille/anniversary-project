@@ -114,6 +114,14 @@ table,tr,td{
   animation-delay: 1s;
 }
 
+.bounce4 {
+  position: relative;
+  animation: imageBounce 2s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.3s;
+}
+
 @keyframes imageBounce {
   from {bottom:-10px;}
   to {bottom:10px;}
