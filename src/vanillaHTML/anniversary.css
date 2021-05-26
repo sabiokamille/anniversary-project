@@ -1,5 +1,10 @@
 body{
   cursor:url("./heart-icon2.png"), pointer;
+  background-color:black;
+}
+
+table,tr,td{
+  border: 1px solid black;
 }
 
 .first-words {
@@ -88,24 +93,28 @@ body{
 
 .bounce1 {
   position: relative;
-  animation: imageBounce1 1.5s infinite;
+  animation: imageBounce 1.7s infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
 }
 
-@keyframes imageBounce1 {
-  from {bottom:-20px;}
-  to {bottom:20px;}
-}
 .bounce2 {
   position: relative;
-  animation: imageBounce2 1.5s infinite;
+  animation: imageBounce 2s infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
   animation-delay: 0.5s;
 }
 
-@keyframes imageBounce2 {
-  from {bottom:-20px;}
-  to {bottom:20px;}
+.bounce3 {
+  position: relative;
+  animation: imageBounce 1.7s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+}
+
+@keyframes imageBounce {
+  from {bottom:-10px;}
+  to {bottom:10px;}
 }
