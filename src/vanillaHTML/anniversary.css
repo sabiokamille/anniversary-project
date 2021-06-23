@@ -5,6 +5,7 @@ body{
 
 table,tr,td{
   border: 1px solid white;
+  border-collapse: collapse;
 }
 
 .first-words {
@@ -122,19 +123,7 @@ table,tr,td{
   animation-delay: 1.3s;
 }
 
-.bounce5 {
-  position: relative;
-  animation: imageBounce_2 1.55s infinite;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out;
-}
-
 @keyframes imageBounce {
   from {bottom:-10px;}
   to {bottom:10px;}
-}
-
-@keyframes imageBounce_2 {
-  from {bottom:50px;}
-  to {bottom:70px;}
 }
